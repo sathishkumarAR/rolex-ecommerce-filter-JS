@@ -1,0 +1,73 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    padding: 20px 50px;
+}
+.leftMenu{
+    flex: 1;
+}
+.content{
+    flex: 4;
+}
+.searchInput{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 6px;
+
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 300;
+    color: #555;
+}
+
+.brand{
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+
+}
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cat{
+    font-weight: 300;
+    cursor: pointer;
+    padding: 5px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+img{
+    width: 130px;
+    height: 230px;
+    object-fit: contain;
+}
+.product{
+    /* background-color: grey;
+    border: 5px solid green; */
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.name{
+    font-weight: 300;
+    font-size: 14px;
+    margin: 7px 0;
+}
+.price{
+    font-size: 14px;
+}
